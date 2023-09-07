@@ -1,29 +1,13 @@
 <mjml>
   <mj-head>
-    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
+    <mj-breakpoint width="600px" />
+     
     <mj-attributes>
+      <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
       <mj-text font-family="Roboto, sans-serif" color="#000000" padding="0" />
       <mj-image padding="0" />
       <mj-section padding="0" background-color="#FFFFFF" />
     </mj-attributes>
-
-    <mj-style>
-      @media(max-width: 480px) {
-        .discount-text table tbody tr td div {
-          padding: 0px 20px 10px 20px !important;
-        }
-
-        .divider table tbody tr td {
-          padding-right: 9px !important;
-        }
-
-        .footer-section {
-          padding: 15px 0 !important;
-
-        }
-      }
-    </mj-style>
-  
   </mj-head>
 
   <mj-body>
@@ -62,25 +46,26 @@
       <mj-column>
         <mj-image src="https://i.postimg.cc/rmCk0VyC/retroblends.jpg" alt="pink smoothie" align="center" />
       </mj-column>
-      <mj-column css-class="discount-text" padding-top="28px">
-        <mj-text padding-top="3px" align="center" color="#FFE61D" font-size="26px" text-transform="uppercase">
-          <span style="background-color:#FC0001; border-radius:5px;">Free offer alert!</span>
+      <mj-column>
+        <mj-text padding-top="28px" font-size="24px" font-weight="800" align="center" color="#000000" text-decoration="underline">
+          FREE OFFER ALERT
         </mj-text>
-        <mj-text align="center" padding="20px 10px 5px 12px" font-size="18px" line-height="1.2" font-weight="700">
+        <mj-text align="center" padding="20px 10px 5px 12px" font-size="18px" line-height="1.2">
           We want to thank you for your continued support over the years...
         </mj-text>
         <mj-text align="center" padding="5px 5px 0px 5px " font-size="16px" line-height="1.2">
           so your next smoothie is on us! Enjoy our extensive selection of flavors and
           add-ons to fuel your post workout recovery, the Retro Fitness way.
         </mj-text>
-        <mj-button border-radius="5px" background-color="#FC0001" font-size="20px" color="#FFE61D" padding-top="20px">
-          Claim Your Smoothie
+        <mj-button href="https://www.retrofitness.com" inner-padding="10px" border-radius="5px" background-color="#FC0001" font-size="18px" color="#FFE61D" padding-top="20px">
+          CLAIM YOUR SMOOTHIE!
         </mj-button>
       </mj-column>
+
     </mj-section>
 
-    <mj-section css-class="divider">
-      <mj-column padding="20px 25px 20px 0">
+    <mj-section>
+      <mj-column padding="30px 0 30px 0">
         <mj-divider border-width="2px" />
       </mj-column>
     </mj-section>
@@ -112,7 +97,7 @@
     <mj-raw>
       <!-- Footer Section -->
     </mj-raw>
-    <mj-section css-class="footer-section" background-color="#FC0001">
+    <mj-section background-color="#FC0001">
       <mj-column width="430px" padding-left="15px" padding-right="15px">
         <mj-text color="#FFFFFF" align="center" font-size="12px" padding-bottom="5px">
           © 2023 Retro Fitness
